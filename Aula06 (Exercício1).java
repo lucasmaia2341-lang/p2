@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class aulaa7 {
+  public static void main (String[] args) {
+    Scanner SC = new Scanner (System.in);
+
+    System.out.print("Digite o primeiro nome: ");
+    String name1 = SC.nextLine();
+
+    System.out.println("Digite o segundo nome: ");
+    String name2 = SC.nextLine();
+
+    if (name1.equals(name2)) {
+      System.out.println("OS nomes são iguais.");
+    } else {
+      System.out.println("Os nomes são diferentes");
+    }
+
+    SC.close();
+  }
+}  
+    
