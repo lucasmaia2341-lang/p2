@@ -1,0 +1,12 @@
+public class Exercicio6 {
+    public static void main(String[] args) {
+        String[] nomes = {"Ana", "Bruno", "Alê", "Aline", "Clara"};
+
+        System.out.println("Nomes que começam com 'A':");
+        for (String nome : nomes) {
+            if (nome.startsWith("A")) {
+                System.out.println(nome);
+            }
+        }
+    }
+}
