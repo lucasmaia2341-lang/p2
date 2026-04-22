@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Exercicio1 {
 
     public static double calcularHipotenusa(double a, double b) {
         return Math.sqrt(a * a + b * b);
