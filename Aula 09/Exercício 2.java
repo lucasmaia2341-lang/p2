@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Exercicio2 {
 
     public static int maiorValor(int[] array) {
         int maior = array[0];
