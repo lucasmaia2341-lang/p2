@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Exercicio3 {
 
     public static boolean elementoExiste(String[] array, String busca) {
         for (int i = 0; i < array.length; i++) {
