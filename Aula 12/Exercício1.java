@@ -1,4 +1,4 @@
-public class Aluno {
+public class exercicio1 {
     String nome;
     double n1, n2, trab;
 
@@ -9,12 +9,12 @@ public class Aluno {
         this.trab = trab;
     }
 
-    double calcularMedia() {
+    double Media() {
         return (n1 + n2 + trab) / 3;
     }
 
-    void verificarSituacao() {
-        if (calcularMedia() >= 7)
+    void verificaraprovado() {
+        if (Media() >= 7)
             System.out.println(nome + "O aluno está:" + " " + "APROVADO");
         else
             System.out.println(nome + "O aluno está:" + " " + "REPROVADO");
